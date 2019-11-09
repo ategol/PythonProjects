@@ -1,3 +1,5 @@
 class DNAtoRNAConversion:
     def DNAtoRNA(dna):
-        return
+        return dna.replace("T", "U")
+
+    print(DNAtoRNA("GCAT"))
